@@ -211,3 +211,61 @@ line-height: 1.625em;
     
    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.column {
+    width: 22%;
+    margin-bottom: 20px;
+}
+
+.column h4 {
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+.icon {
+    margin-right: 5px;
+}
