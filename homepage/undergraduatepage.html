@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+    .main-body{
+        margin-left:100px;
+        margin-right: 100px;
+        margin-top: 30px;
+        height: 300px;
+        
+        
+        
+    }    
+    .header-home{
+        display: flex;
+        flex-direction: row;
+        
+        
+    }
+    .header-left{
+        background-color: white;
+        width:200px;
+        color: blue;
+        font-weight: bold;
+        margin-right: 300px;
+       
+        
+    }
+
+    .header-right :hover{
+        color: gold;
+        transition: 0.2s;
+
+   
+}
+.header-right{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+   
+    
+}
+    .program-options{
+        
+        display: grid;
+        grid-template-columns: 150px 150px 150px 150px;
+        column-gap: 100px;
+        padding: 50px;
+        
+    }
+    .short-courses,.undergraduate-programme,.mphilandmsc-programme,.phd-programme{
+        background-color: blue;
+    }
+
+    .short-courses:hover,.undergraduate-programme:hover,.mphilandmsc-programme:hover,.phd-programme:hover{
+        background-color: brown;
+        
+    }
+
+    .program-description{
+        display: grid;
+        grid-template-columns: 150px 150px 150px 150px;
+        column-gap: 100px;
+        padding: 50px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    .detailed-programs{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+        
+    }
+
+    .detailed-programspic{
+        margin-right: 10px;
+        width: 600px;
+    }
+
+    .detailed-programsabout{
+        width: 500px;
+
+    }
+.detailed-programsaboutheading{
+    font-family:Poppins ;
+    font-weight: 600px;
+    color: #2C2A58;
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    
+    
+}
+    p{
+        display: block;
+    
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;  
+    color: #777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    
+    margin-bottom: 0px;
+    margin-top: 0px;
+    line-height: 1.625em;
+
+   
+    
+
+       
+    }
+
+    .course-listing{
+       
+        
+    }
+
+    
+
+.it-cs{
+    display: grid;
+        grid-template-columns: 1fr 1fr;
+}
+
+.box{
+    line-height: 1.5em;
+    width: 500px;
+}
+
+option{
+    margin-top: 20px;
+}
+     
+h3{
+    
+}
+
+
+
+    </style>
+    <title>cs department</title>
+</head>
+
+    <body>
+        <div class="main-body">
+
+        <div class="header-home">
+            <div class="header-left">
+                DEPARTMENT OF COMPUTER SCIENCE
+            </div>
+            <div class="header-right">
+                <div>HOME</div>
+                <div>ABOUT</div>
+                <div>FACULTY</div>
+                <div>RESEARCH GROUP</div>
+               
+            </div>
+
+        </div>
+        </div>
+    </div>
+        <div class="program-options">
+            <div class="short-courses">Short Courses</div>
+            <div class="undergraduate-programme">Undergraduate Programme</div>
+            <div class="mphilandmsc-programme">MPhil and MSC Programme</div>
+            <div class="phd-programme">Phd Programme</div>
+            </div>
+
+            <div class="program-description">
+                <div class="short-coursesdescription">
+                    Our eight week intensive certificate course is open to senior high school graduates
+                    tertiary students and school graduates, workers and the general public
+                </div>
+                <div class="undergraduate-programmedescription">Open the door to sought after technology
+                    carrers with a world class Bachelor of SCience in Computer Science degree
+                </div>
+                <div class="mphilandmsc-programmedescription">Embrace our world class graduate education
+                    with unique blend of cutting edge research and industry experience
+                </div>
+                <div class="phd-programmedescription">our PHPs lead the effort to extend the 
+                    boundaries of knowledge through quality and industry relevant research</div>
+                
+    
+
+
+        <div class="detailed-programs">
+            <div >
+                <img class="detailed-programspic" src="https://dcs.ug.edu.gh/img/about-img2.jpeg">
+            </div>
+
+            <div class="detailed-programsabout">
+                <h1 class="detailed-programsaboutheading">Undergraduate degree programmes</h1>
+                <p>The Department offers two undergraduate degree programmes, 
+                    Bachelor of Science in Computer Science Single-Major (3:2:1:1) 
+                    and Major-Minor (3:2:2:1) as well as Bachelor of Science in Information Technology.</p>
+                <p>To qualify for admission into Computer Science programmes at Level 200, 
+                    candidates must have taken the following courses at Level 100:</p>
+                    <p>MATH 121: Algebra and Trigonometry</p>
+                    <p>MATH 122: Calculus I CSCD 101: Introduction to Computer Science I</p>
+                    <p>CSCD 102: Introduction to Computer Science II</p>
+                    <p>Every student in the Department of Computer Science must
+                         own his or her laptop with minimum specification of:</p>
+                    <p>i3 64-bit Processor
+                        </p>
+                    <p>8GB RAM</p>
+                    <p>500GB HD or 256 SSD</p>
+            </div>
+        </div>
+       
+    </div>
+
+        <div class="course-listing">
+            <h2>Undergraduate Courses</h2>
+
+            <div class="it-cs">
+                <div>
+                    <div>Computer Science</div>
+                    
+                     <label><h3> Level 100</h3></label>
+                    
+                    <select>
+                    
+                        
+                        <option>First Semester</option> 
+                   
+                       <option>UGRC 150	Critical Thinking and Practical Reasoning</option> 
+                       <option> <p>MATH 121	Algebra and Trigonometry</p> </option>
+                       <option> <p> MATH 123	Vectors and Geometry</p> </option> 
+                       <option><p> DCIT 101	Introduction to Computer Science</p>
+                       <option> <p>DCIT 103	Office Productivity Tools</p></option> 
+                       <option><p>STAT 111	Introduction to Statistics and Probability I</p></option>
+                  
+                    
+                </select> 
+                <details>
+                    <summary>skwkw</summary>
+                    
+                    
+                    
+                    <select class="box">
+                        <option><p>UGRC 110	Academic Writing I
+                        </p></option>
+                        <option><p>UGRC 131-136	Understanding Human Society</p></option>
+                        <option> <p> MATH 122	Calculus I</p></option>
+                        <option> <p>MATH 126	Algebra and Geometry</p></option>
+                        <option> <p> STAT 112	Introduction to Statistics and Probability II</p></option>
+                        <option><p>DCIT 104	Programming</p></option>
+                        <option><p>DCIT 102	Computer Hardware Fund. and Circuits</p></option>
+                   
+                </details>
+               
+          
+                    
+                    </select>
+                   
+
+                    
+
+                     </div>
+
+
+                     
+                <div > Information Technology
+                    <h3>First Semester</h3>
+              
+                    <p>
+                        UGRC 150	Critical Thinking and Practical Reasoning
+                        </p>
+                        <p> DCIT 101	Introduction to Computer Science</p>
+                        <p>DCIT 103	Office Productivity Tools</p>
+                        <p>DCIT 105	Mathematics for IT Professionals</p>
+                        <p> STAT 111	Introduction to Statistics and Probability</p>
+                        <h3>ELECTIVES</h3>
+                        <p>MATH 121	Algebra and Trigonometry</p> 
+                        <p> MATH 123	Vectors and Geometry</p> 
+                        <p>ECON 101	Introduction to Economics I</p>
+                    
+
+                </div>
+            </div>
+
+           
+        </div>
+
+      
+            
+   
+
+
+
+
+
+    </body>
+    </html><label> <h3>Second Semester</h3>
+    </label>

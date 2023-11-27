@@ -1,0 +1,13 @@
+
+.phd-programmecourses{
+   display: grid;
+   grid-template-columns: 1fr 1fr ;
+}
+
+.phdprogramsimage{
+    width: 530px;
+    margin-top: 10px;
+    
+    
+    
+}

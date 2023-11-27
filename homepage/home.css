@@ -1,0 +1,213 @@
+
+
+
+.main{
+margin: 100px;
+margin-bottom: 1000px;
+
+
+
+
+}
+.header-home{
+display: flex;
+flex-direction: row;
+
+
+
+
+
+
+}
+.header-left{
+background-color: white;
+width:200px;
+color: blue;
+font-weight: bold;
+margin-right: 300px;
+
+
+}
+.logo{
+    height: 40px;
+}
+
+.header-right :hover{
+color: gold;
+transition: 0.2s;
+cursor: pointer;
+
+
+}
+.header-right{
+    
+display: flex;
+
+flex-direction: row;
+column-gap: 50px;
+
+
+
+}
+.videomain{
+width: 1000px;
+}
+
+
+.program-options{
+
+display: grid;
+grid-template-columns: 200px 200px 200px 200px;
+column-gap: 100px;
+
+
+}
+.short-courses,.undergraduate-programme,.mphilandmsc-programme,.phd-programme{
+background-color: blue;
+padding-bottom: 30px;
+
+}
+
+.short-courses:hover,.undergraduate-programme:hover,.mphilandmsc-programme:hover,.phd-programme:hover{
+background-color: brown;
+
+}
+
+.program-description{
+display: grid;
+grid-template-columns: 200px 200px 200px 200px;
+column-gap: 100px;
+
+text-align: center;
+}
+
+
+
+
+.detailed-programs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
+}
+
+.detailed-programspic{
+    margin-right: 10px;
+    width: 600px;
+}
+
+
+
+
+
+
+
+.departmental-events{
+    display: flex;
+   
+    flex-direction: row;
+    box-sizing: border-box;
+    column-gap: 10px;
+   
+   
+   
+
+    
+   
+
+}
+
+.departmental-eventspic{
+   
+    height: 250px;
+    
+    border-radius: 15px;
+}
+.departmental-eventsdescription{
+    text-align: center;
+
+}
+.differentpicstyle{
+   margin-top: 50px;
+   height: 250px;
+   border-radius: 15px;
+}
+    
+
+.shortcoursesweoffer{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+}
+
+.shortcoursesweofferpic{
+    width:900px ;
+}
+
+.mainshortcourses{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    background-color: blue;
+    gap: 10px;
+    
+}
+.mainshortcoursespic{
+ height: 170px;
+ 
+}
+
+
+.mainshortcoursesdescription{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    background-color: red;
+    gap: 10px;
+    height: 170px;
+}
+    
+
+.twomainshortcourses{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+.footergrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: black;
+    color: white;
+}
+
+p{
+    display: block;
+
+margin-inline-start: 0px;
+margin-inline-end: 0px;  
+color: #777;
+font-family: "Poppins", sans-serif;
+font-size: 14px;
+font-weight: 300;
+
+margin-bottom: 0px;
+margin-top: 0px;
+line-height: 1.625em;
+
+
+
+
+   
+}
+
+.backgroundpic{
+    background-image:url(	https://dcs.ug.edu.gh/img/under_grad_main.jpg);
+    background-color: rgb(230, 72, 72);
+    margin-left:100px;
+    margin-right: 100px;
+    width: 1100px;
+    height: 400px;
+    background-size:100%;
+    
+    
+    
+   
+}

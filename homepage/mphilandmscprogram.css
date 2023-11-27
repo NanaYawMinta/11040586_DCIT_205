@@ -1,0 +1,13 @@
+
+
+.mphilandmscdescription{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.mphilandmscprogramcoursedescription{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}

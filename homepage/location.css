@@ -1,0 +1,25 @@
+.visitus, .locationheading{
+    text-align: center;
+   margin-top: 15px;
+}
+.backgroundpic{
+    background-image:url(https://dcs.ug.edu.gh/img/gallery/g4.jpg	);
+    background-color: rgb(230, 72, 72);
+    margin-left:100px;
+    margin-right: 100px;
+    width: 1000px;
+    height: 400px;
+    background-size:100%;
+    
+    
+    
+   
+}
+.locationdiv{
+    display: flex;
+    justify-content: center;
+}
+
+.locationpic{
+   
+}

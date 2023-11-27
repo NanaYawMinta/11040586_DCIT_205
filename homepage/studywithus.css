@@ -1,0 +1,16 @@
+
+.studywithusdiv{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: blue;
+}
+
+.studywithusdivpic{
+   
+    width: 500px;
+}
+
+.studywithusdivdescription{
+    margin-top: 100px;
+    text-align: center;
+}
