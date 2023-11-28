@@ -2,7 +2,7 @@
 .studywithusdiv{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: blue;
+    
 }
 
 .studywithusdivpic{
@@ -13,4 +13,9 @@
 .studywithusdivdescription{
     margin-top: 100px;
     text-align: center;
+}
+
+.studywithus{
+    text-align: center;
+    margin-top: 30px;
 }

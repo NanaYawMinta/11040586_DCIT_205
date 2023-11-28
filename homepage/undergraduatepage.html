@@ -3,79 +3,7 @@
 <head>
     <style>
 
-    .main-body{
-        margin-left:100px;
-        margin-right: 100px;
-        margin-top: 30px;
-        height: 300px;
-        
-        
-        
-    }    
-    .header-home{
-        display: flex;
-        flex-direction: row;
-        
-        
-    }
-    .header-left{
-        background-color: white;
-        width:200px;
-        color: blue;
-        font-weight: bold;
-        margin-right: 300px;
-       
-        
-    }
-
-    .header-right :hover{
-        color: gold;
-        transition: 0.2s;
-
    
-}
-.header-right{
-    display: flex;
-    flex-direction: row;
-    column-gap: 20px;
-   
-    
-}
-    .program-options{
-        
-        display: grid;
-        grid-template-columns: 150px 150px 150px 150px;
-        column-gap: 100px;
-        padding: 50px;
-        
-    }
-    .short-courses,.undergraduate-programme,.mphilandmsc-programme,.phd-programme{
-        background-color: blue;
-    }
-
-    .short-courses:hover,.undergraduate-programme:hover,.mphilandmsc-programme:hover,.phd-programme:hover{
-        background-color: brown;
-        
-    }
-
-    .program-description{
-        display: grid;
-        grid-template-columns: 150px 150px 150px 150px;
-        column-gap: 100px;
-        padding: 50px;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
     .detailed-programs{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -139,7 +67,7 @@
     width: 500px;
 }
 
-option{
+.option{
     margin-top: 20px;
 }
      
@@ -151,9 +79,10 @@ h3{
 
     </style>
     <title>cs department</title>
+    <link rel="stylesheet" href="home.css">
 </head>
 
-    <body>
+    <body class="main">
         <div class="main-body">
 
             <header>
@@ -233,72 +162,90 @@ h3{
             <div class="it-cs">
                 <div>
                     <div>Computer Science</div>
-                    
-                     <label><h3> Level 100</h3></label>
-                    
-                    <select>
-                    
+
+                    <details open>
+                        <summary>
+                           L100
+                          </summary>
+                         <h3> First Semester</h3>
                         
-                        <option>First Semester</option> 
-                   
-                       <option>UGRC 150	Critical Thinking and Practical Reasoning</option> 
-                       <option> <p>MATH 121	Algebra and Trigonometry</p> </option>
-                       <option> <p> MATH 123	Vectors and Geometry</p> </option> 
-                       <option><p> DCIT 101	Introduction to Computer Science</p>
-                       <option> <p>DCIT 103	Office Productivity Tools</p></option> 
-                       <option><p>STAT 111	Introduction to Statistics and Probability I</p></option>
+
+                       <p> UGRC 150	Critical Thinking and Practical Reasoning</p>
+                            <p>MATH 121	Algebra and Trigonometry</p> 
+                       <p> MATH 123	Vectors and Geometry</p> 
+                       <p> DCIT 101	Introduction to Computer Science</p>
+                        <p>DCIT 103	Office Productivity Tools</p>
+                       <p>STAT 111	Introduction to Statistics and Probability I</p>
+
+                       <h3>Second Semester</h3>
+                       <p>UGRC 110	Academic Writing I
+                    </p>
+                    <p>UGRC 131-136	Understanding Human Society</p>
+                     <p> MATH 122	Calculus I</p>
+                     <p>MATH 126	Algebra and Geometry</p>
+                     <p> STAT 112	Introduction to Statistics and Probability II</p>
+                   <p>DCIT 104	Programming</p>
+                    <p>DCIT 102	Computer Hardware Fund. and Circuits</p>
+
+
+
+                    </details>
+                    
+                    
+                    
                   
                     
-                </select> 
-                <details>
-                    <summary>skwkw</summary>
+                        
                     
-                    
-                    
-                    <select class="box">
-                        <option><p>UGRC 110	Academic Writing I
-                        </p></option>
-                        <option><p>UGRC 131-136	Understanding Human Society</p></option>
-                        <option> <p> MATH 122	Calculus I</p></option>
-                        <option> <p>MATH 126	Algebra and Geometry</p></option>
-                        <option> <p> STAT 112	Introduction to Statistics and Probability II</p></option>
-                        <option><p>DCIT 104	Programming</p></option>
-                        <option><p>DCIT 102	Computer Hardware Fund. and Circuits</p></option>
                    
-                </details>
-               
-          
-                    
-                    </select>
-                   
-
-                    
+              
 
                      </div>
 
 
                      
                 <div > Information Technology
-                    <h3>First Semester</h3>
+
+                    <details open>
+                        <summary>L100</summary>
+                        <h3>First Semester</h3>
+                        <p>
+                            UGRC 150	Critical Thinking and Practical Reasoning
+                            </p>
+                            <p> DCIT 101	Introduction to Computer Science</p>
+                            <p>DCIT 103	Office Productivity Tools</p>
+                            <p>DCIT 105	Mathematics for IT Professionals</p>
+                            <p> STAT 111	Introduction to Statistics and Probability</p>
+                            <h3>ELECTIVES</h3>
+                            <p>MATH 121	Algebra and Trigonometry</p> 
+                            <p> MATH 123	Vectors and Geometry</p> 
+                            <p>ECON 101	Introduction to Economics I</p>
+
+                            <h3>Second Semester</h3>
+                            <p>UGRC 110	Academic Writing I
+                            </p>
+                            <p>UGRC 131-136	Understanding Human Society</p>
+                             <p> MATH 122	Calculus I</p>
+                             <p>MATH 126	Algebra and Geometry</p>
+                             <p> STAT 112	Introduction to Statistics and Probability II</p>
+                           <p>DCIT 104	Programming</p>
+                            <p>DCIT 102	Computer Hardware Fund. and Circuits</p>
+                       
+                    </details>
+                  
               
-                    <p>
-                        UGRC 150	Critical Thinking and Practical Reasoning
-                        </p>
-                        <p> DCIT 101	Introduction to Computer Science</p>
-                        <p>DCIT 103	Office Productivity Tools</p>
-                        <p>DCIT 105	Mathematics for IT Professionals</p>
-                        <p> STAT 111	Introduction to Statistics and Probability</p>
-                        <h3>ELECTIVES</h3>
-                        <p>MATH 121	Algebra and Trigonometry</p> 
-                        <p> MATH 123	Vectors and Geometry</p> 
-                        <p>ECON 101	Introduction to Economics I</p>
+                   
                     
 
-                </div>
+
+                
             </div>
 
            
         </div>
+
+        
+       
 
       
             
@@ -309,8 +256,7 @@ h3{
 
 
     </body>
-    </html><label> <h3>Second Semester</h3>
-    </label>
+    
 
 
 

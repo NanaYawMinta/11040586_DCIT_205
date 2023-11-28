@@ -3,3 +3,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+.upcomingeventspic{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.upcomingeventspicdetails{
+    
+   width: 350px;
+}
