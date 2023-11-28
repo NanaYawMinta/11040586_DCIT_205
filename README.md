@@ -29,6 +29,18 @@
 ADJEI-GYEBI MINTA OKATAKYIE
 
 
+![screenshot of the website](images/Screenshot (5).png)
+![screenshot of the website](images/Screenshot (6).png)
+![screenshot of the website](images/Screenshot (7).png)
+![screenshot of the website](images/Screenshot (8).png)
+![screenshot of the website](images/Screenshot (9).png)
+![screenshot of the website](images/Screenshot (10).png)
+![screenshot of the website](images/Screenshot (11).png)
+![screenshot of the website](images/Screenshot (12).png)
+![screenshot of the website](images/Screenshot (13).png)
+![screenshot of the website](images/Screenshot (14).png)
+
+
 
                         What you have learned from the project.
 This assignment has been really beneficial, i have learnt about the various tools needed to build a website.
