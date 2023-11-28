@@ -12,8 +12,15 @@
 
 .aboutgriddescription{
   margin-top: 80px;
+  background-color: #FFF5EB;
 }
 
 .welcomeword{
     text-align: center;
+    margin-top: 300px;
+}
+
+.welcomewordsub{
+    text-align: center;
+
 }

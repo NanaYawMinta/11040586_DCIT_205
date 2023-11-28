@@ -9,9 +9,26 @@
 .mphilandmscprogramcoursedescription{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    column-gap: 15px;
 
 }
 
 .mphilandmscdescriptionpic{
    width : 550px;
+}
+
+.levelheading{
+    background-color:
+    #FFD2A4;
+    font-size: 25px;
+}
+
+.coursesoffered{
+    background-color: 
+    #FFF5EB;
+
+}
+
+.mscheading{
+    text-align: center;
 }

@@ -2,6 +2,9 @@
 .upcomingevents{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    background-color: 
+    #F5F2F0;
+    text-align: center;
 }
 
 .upcomingeventspic{
@@ -13,3 +16,8 @@
     
    width: 350px;
 }
+
+.departmentaleventsheading{
+    text-align: center;
+}
+
