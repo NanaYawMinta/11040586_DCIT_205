@@ -237,6 +237,16 @@ line-height: 1.625em;
    
 }
 
+.introwords{
+    padding-top: 100px;
+    padding-bottom: 0px;
+}
+
+.introwords2{
+    padding-top: 0px;
+    
+}
+
 .backgroundpic {
     position: relative;
   }
@@ -253,6 +263,7 @@ line-height: 1.625em;
 
   .backgroundpicinfo{
     color: white;
+    line-height: 10px;
   }
 
 
